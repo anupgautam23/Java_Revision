@@ -1,0 +1,16 @@
+Explain the difference between JRE,JVM and JDK ?
+
+JDK :--
+
+----- JDK stands for Java Development Kit, it internally contains JRE and JVM, 
+      where jvm stands for java runtime enviornment and JVM stands for Java Virtual Machine. 
+      JDK provides all the tools to work with java language.
+      
+JRE :--
+------JRE stands for Java Runtim Enviornment and it provides an enviornment to execute
+       the java program. It internally contains JVM which is responsible to execute a 
+       java program.
+       
+JVM :--
+------JVM stands for Java Virtual Machine. It is the software in the form of interpretes written in 'C' 
+      language through which we can execute our java program.                
