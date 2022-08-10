@@ -1,0 +1,17 @@
+Q3) What are immutable classes in java? Create your own immutable classes in
+Java?
+
+Ans -- 
+
+In Java, when we create an object of an immutable class, we cannot change its value.
+For example, String is an immutable class. Hence, we cannot change the content of a
+string once created. 
+
+Besides, we can also create our own custom immutable classes.
+ Here's what we need to do to create an immutable class.
+
+1)--> declare the class as final so it cannot be extended
+2)--> all class members should be private so they cannot be accessed outside of class
+3)--> shouldn't contain any setter methods to change the value of class members
+4)--> the getter method should return the copy of class members
+5)--> class members are only initialized using constructor
