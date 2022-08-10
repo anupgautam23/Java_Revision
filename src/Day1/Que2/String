@@ -1,0 +1,12 @@
+Q2) Is there any difference between creating a string with and without a new operator?
+Explain with an example.
+
+Ans :--
+
+----- Both expression gives you String object, but there is difference between them.
+      When you create String object using new() operator, it always create a new object 
+      in heap memory. On the other hand, if you create object using String literal
+      syntax e.g. String s2 = "Test"; it may return an existing object from String pool
+      (a cache of String object in Perm gen space, which is now moved to heap space in
+      recent Java release), if it's already exists. Otherwise it will create a new 
+      string object and put in string pool for future re-use.
