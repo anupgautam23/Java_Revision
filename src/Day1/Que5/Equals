@@ -1,0 +1,25 @@
+Que1: -  What is the difference between equals method and == operator in java? And what
+         will be the output of the following code snippets and give with proper explanation.
+         
+    Ans :  
+    
+    The major difference between the == operator and .equals() method is that one is an 
+    operator, and the other is the method. Both these == operators and equals() are used 
+    to compare objects to mark equality. lets see the some differences between '==' and  .equals.
+    
+    
+    1) '==' operator :-
+       
+        - It is considered an operator in Java. 
+        - It is majorly used to compare the reference values and objects.
+        - We can use the == operator with objects and primitives.
+        - The == operator can’t compare conflicting objects, so at that time the compiler surrenders the compile-time error
+        - == operator cannot be overridden.
+        
+    2) Equals() method : -
+        - Equals() is considered as a method in Java.
+        - It is used to compare the actual content of the object
+        - We cannot use the equals method with primitives
+        - The equals() method can compare conflicting objects utilizing
+          the equals() method and returns “false”.       
+        - Equals() method and can be overridden.   
