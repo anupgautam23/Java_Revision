@@ -13,12 +13,14 @@ Ans:-
  (1) Once declared, final variable becomes constant and cannot be modified.
  (2) final method cannot be overridden by sub class.
  (3) final class cannot be inherited.
+ (4) Final method is executed only when we call it.
  
  Finally :-
  (1) finally block runs the important code even if exception occurs or not.
  (2) finally block cleans up all the resources used in try block
+ (3) Finally block is executed as soon as the try-catch block is executed.
  
  Finalize:-
  
- finalize method performs the cleaning activities with respect to the object before its destruction.
- 
+ (1) finalize method performs the cleaning activities with respect to the object before its destruction.
+ (2) finalize method is executed just before the object is destroyed.
