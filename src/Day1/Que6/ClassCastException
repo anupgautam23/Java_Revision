@@ -1,0 +1,16 @@
+1:-Explain ClassCastException with the help of the example.
+
+  if you are trying to typecast an object of class A into an object 
+  of class B, and they aren't compatible, you get a class cast exception.
+  
+  lets see some example :-
+  
+    class A {...}
+ 	class B extends A {...}
+	class C extends A {...}
+	
+	- You can cast any of these things to Object, because all Java classes inherit from Object.
+	- You can cast either B or C to A, because they're both "kinds of" A
+	- You can cast a reference to an A object to B only if the real object is a B.
+	- You can't cast a B to a C even though they're both A's.
+
